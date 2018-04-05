@@ -2,9 +2,10 @@
 #define REPOSITORY_H
 
 #include "basictypes.h"
+#include "irepository.h"
 
 template <class T>
-class Repository
+class Repository: IRepository<T>
 {
 public:
     Repository();
