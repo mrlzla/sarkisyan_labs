@@ -1,5 +1,5 @@
-#ifndef IREPOSITORY_H
-#define IREPOSITORY_H
+#ifndef REPOSITORY_H
+#define REPOSITORY_H
 
 #include "basictypes.h"
 
@@ -52,4 +52,4 @@ void Repository<T>::SortItemsById()
 
 }
 
-#endif // IREPOSITORY_H
+#endif // REPOSITORY_H
