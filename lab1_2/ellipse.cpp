@@ -8,5 +8,5 @@ Ellipse::Ellipse(cv::Point center, cv::Size axes, double angle):
 
 void Ellipse::Draw(cv::Mat &canvas, cv::Scalar &color)
 {
-    cv::ellipse(canvas, center, axes, angle, 0, 360, color);
+    cv::ellipse(canvas, center, axes, angle, 0, 360, color, 4);
 }

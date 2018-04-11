@@ -4,7 +4,7 @@
 #include "basictypes.h"
 #include "ielement.h"
 
-class Polygon: IElement
+class Polygon: public IElement
 {
 public:
     Polygon(std::vector<cv::Point> points);

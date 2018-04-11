@@ -4,7 +4,7 @@
 #include "basictypes.h"
 #include "ielement.h"
 
-class Ellipse:IElement
+class Ellipse: public IElement
 {
 public:
     Ellipse(cv::Point center, cv::Size axes, double angle);

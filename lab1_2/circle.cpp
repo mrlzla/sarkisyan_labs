@@ -1,6 +1,6 @@
 #include "circle.h"
 
-Circle::Circle(cv::Point center, unsigned int radius): IElement("circle"), center(center), radius(radius)
+Circle::Circle(const cv::Point center, const unsigned int radius): IElement("circle"), center(center), radius(radius)
 {
 }
 

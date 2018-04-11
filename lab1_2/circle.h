@@ -4,10 +4,10 @@
 #include "basictypes.h"
 #include "ielement.h"
 
-class Circle:IElement
+class Circle: public IElement
 {
 public:
-    Circle(cv::Point center, unsigned int radius);
+    Circle(const cv::Point center, const unsigned int radius);
     void Draw(cv::Mat & canvas, cv::Scalar & color);
     void Accept(Visitor &v);
 private:

@@ -3,7 +3,7 @@
 #include "mapcontainer.h"
 #include "vectorcontainer.h"
 #include "listqueue.h"
-#include "vectorqueue.h"
+#include "arrayqueue.h"
 
 using namespace std;
 
@@ -28,18 +28,18 @@ int main()
     std::cout << vectorContainer[2] << " " << mapContainer["2"] << std::endl;
 
 
-    VectorQueue<int> vectorQueue;
+    ArrayQueue<int> arrayQueue;
     ListQueue<int> listQueue;
-    vectorQueue.AddItem(5);
-    vectorQueue.AddItem(4);
-    vectorQueue.AddItem(3);
+    arrayQueue.AddItem(5);
+    arrayQueue.AddItem(4);
+    arrayQueue.AddItem(3);
 
     listQueue.AddItem(5);
     listQueue.AddItem(4);
     listQueue.AddItem(3);
 
-    auto x1 = vectorQueue.GetItem();
-    auto x2 = vectorQueue.GetItem();
+    auto x1 = arrayQueue.GetItem();
+    auto x2 = arrayQueue.GetItem();
 
     auto x3 = listQueue.GetItem();
     auto x4 = listQueue.GetItem();

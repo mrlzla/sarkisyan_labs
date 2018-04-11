@@ -10,6 +10,6 @@ HEADERS += \
     vectorcontainer.h \
     mapcontainer.h \
     iqueue.h \
-    vectorqueue.h \
     listqueue.h \
-    basictypes.h
+    basictypes.h \
+    arrayqueue.h
